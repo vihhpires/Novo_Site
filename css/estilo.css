@@ -25,6 +25,10 @@ body{
     background-color: rgb(223, 255, 244);
 }
 
+section{
+    scroll-margin-top: 100px;
+}
+
 nav ul{
     list-style: none;
     display: flex;
@@ -160,7 +164,7 @@ header .container{
     gap: 40px;
     max-width: 1400px;
     margin: auto;
-    padding: 15px;
+
     
 }
 
@@ -308,10 +312,12 @@ h1, h2, h3{
 
 }
 
-@media (max-width: 667px){
+@media (max-width: 642px){
     
-    .tipos-container{
+    .tipos-container, s.tipos{
         flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
 
     }
 }
