@@ -304,8 +304,52 @@ h1, h2, h3{
     color: rgb(229, 204, 15);
 }
 
+/* Modal */
 
+.modal{
+    background-color: brown;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
 
+.card{
+    max-width: 300px;
+}
+
+.card h3{
+    margin-top: 0;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: bisque;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.1);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target{
+    display: flex;
+}
 
 
 
