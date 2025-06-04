@@ -206,6 +206,14 @@ header .container{
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+
+}
+
+.tit{
+    font-family: "Fascinate Inline", system-ui;
+
+
 }
 
 .titulo-02{
