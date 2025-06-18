@@ -35,13 +35,11 @@ nav ul{
 
 nav ul li{
     margin-left: 20px;
-    font-size: 1.5em;
 }
 
 nav ul li a{
     color: rgb(184,134,11);
     text-decoration: none;
-    font-family: "Leckerli One", cursive;
 }
 
 a:hover{
@@ -169,7 +167,6 @@ header .container{
 
 .tipo ul li{
     list-style: none;
-
 }
 
 #tipos .tipo{
@@ -307,23 +304,6 @@ h1, h2, h3{
     color: rgb(229, 204, 15);
 }
 
-h1, h2, h3{
-    font-family: "Shrikhand", serif;
-
-
-} 
-
-.btn{
-    font-family: "Kablammo", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "MORF" 0;
-  
-
-}
-
 /* Modal */
 
 .modal{
@@ -333,7 +313,6 @@ h1, h2, h3{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
     text-align: justify;
-    padding: 100px;
 }
 
 
@@ -377,7 +356,6 @@ h1, h2, h3{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    margin: 1.6em;
 }
 
 .modal-content h3, h2{
@@ -385,10 +363,6 @@ h1, h2, h3{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 1.4em;
-}
-
-.modal-content p{
-    font-size: 1.3em;
 }
 
 .close-btn{
@@ -399,10 +373,6 @@ h1, h2, h3{
     color: white;
     border-radius: 6px;
     text-decoration: none;
-}
-
-section{
-    scroll-margin-top: 200px;
 }
 
 .modal{
