@@ -206,14 +206,6 @@ header .container{
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
-    font-family: "Fascinate Inline", system-ui;
-
-}
-
-.tit{
-    font-family: "Fascinate Inline", system-ui;
-
-
 }
 
 .titulo-02{
@@ -320,16 +312,9 @@ h1, h2, h3{
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
-    text-align: center;
+    text-align: justify;
 }
 
-.card{
-    max-width: 100px;
-}
-
-.card h3{
-    margin-top: 0;
-}
 
 .btn{
     display: inline-block;
@@ -365,12 +350,19 @@ h1, h2, h3{
 }
 
 .modal-content{
+    max-height: 90vh;
+    overflow: auto;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    max-width: 560px;
-    text-align: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3, h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.4em;
 }
 
 .close-btn{
@@ -381,6 +373,14 @@ h1, h2, h3{
     color: white;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.modal{
+    margin-top: 100px;
+}
+
+.modal-content{
+    max-height: 60vh;
 }
 
 
