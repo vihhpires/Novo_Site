@@ -413,6 +413,15 @@ section{
     max-height: 60vh;
 }
 
+/* Galeria */
+
+#hair-real img{
+    width: 300px;
+    height: 440px;
+}
+
+#hair-real 
+
 
 @media (max-width: 519px){
     header .container, .sobre-container{
