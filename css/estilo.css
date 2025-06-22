@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -172,6 +171,9 @@ header .container{
     list-style: none;
     font-size: 1.3;
     line-height: 1.5;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -193,7 +195,7 @@ header .container{
 }
 
 #tipos .tipo:active{
-    transform: scale(0.98);
+    transform: scale(0.95);
     border: inset rgb(78, 4, 164);
     border: outset rgb(78, 4, 164) ;
     border-width: 7px;
@@ -284,6 +286,18 @@ footer{
     background-color: rgb(32,178,170);
 }
 
+footer p{
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+
+p{
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .lis-ond{
     background-color: rgb(183, 248, 225, 0.5);
     padding: 6px;
@@ -329,6 +343,11 @@ h1, h2, h3{
     padding: 100px;
 }
 
+.txtmodal{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 1.3em;
+}
 
 .btn{
     display: inline-block;
@@ -339,12 +358,18 @@ h1, h2, h3{
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn:hover{
     background-color: bisque;
     color: aqua;
-    transform: scale(0.98);
+    transform: scale(0.95);
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .modal{
@@ -393,6 +418,10 @@ h1, h2, h3{
     color: white;
     border-radius: 6px;
     text-decoration: none;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 section{
@@ -405,6 +434,18 @@ section{
 
 .modal-content{
     max-height: 60vh;
+}
+
+.modal-content ul li{
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 1.8;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Galeria */
