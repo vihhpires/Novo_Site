@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,18 +26,19 @@
 </head>
 
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="logo">
-               <img src="img/logo01.png" alt="" width="47" height="47">
+                <img src="img/logo01.png" alt="" width="47" height="47">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobre">O que é</a></li>
-                    <li><a href="#tipos">Tipos</a></li>
-                    <li><a href="#hair-real">Cabelos Reais</a></li>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="index.html#sobre">O que é</a></li>
+                    <li><a href="index.html#tipos">Tipos</a></li>
+                    <li><a href="index.html#hair-real">Cabelos Reais</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
 
@@ -44,14 +46,96 @@
         </div>
     </header>
     <section id="inicio" class="bunner">
-        <h1 class="h1-bunner">Os tipos de Curvaturas dos cabelos e seus Cuidados para se ter mais autoestima com vc mesma !</h1>
+        <h1 class="h1-bunner">Os tipos de Curvaturas dos cabelos e seus Cuidados para se ter mais autoestima com vc
+            mesma !</h1>
 
     </section>
-    
 
-        
-        <section id="contato">
+    <section id="form">
+        <div class="forms-container">
+
             <h1 class="titulo">CONTATO</h1>
+
+            <form class="form-contato" action="https://formsubmit.co/vitoriapquenatalento@gmail.com" method="post">
+                <div class="grupo-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="nome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="Idade">Idade:</label>
+                    <input type="number" id="Idade" name="Idade" min="6" max="120" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="area">Qual é a sua curvatura de cabelo?</label>
+                    <select id="area" name="area">
+                        <option value="ml">Liso (1a, 1b, 1c)</option>
+                        <option value="cv">ondulado (2a, 2b, 2c)</option>
+                        <option value="pln">cacheado (3a, 3b, 3c)</option>
+                        <option value="generativa">Crespo (4a, 4b, 4c)</option>
+                    </select>
+                </div>
+
+                <div class="grupo-form">
+                    <label>Já tem algum dano no cabelo:</label>
+                    <input type="radio" name="genero" value="feminino"> Sim, muito (Dano químico)
+                    <input type="radio" name="genero" value="masculino"> Sim, pouco (Dano mais não químico)
+                    <input type="radio" name="genero" value="outro"> não
+                </div>
+
+                <div class="grupo-form">
+                    <label for="area">Gênero:</label>
+                    <select id="area" name="area">
+                        <option value="ml">masculino</option>
+                        <option value="cv">Femenino</option>
+                        <option value="pln">Outro...</option>
+                    </select>
+                </div>
+
+                <div class="grupo-form">
+                    <label>Quais desses passos do cronograma capilar você ja faz?</label>
+                    <input type="checkbox" name="uso[]" value="chatgpt"> Hidratação
+                    <input type="checkbox" name="uso[]" value="dalle"> Nutrição
+                    <input type="checkbox" name="uso[]" value="midjourney"> Reconstrução
+                    <input type="checkbox" name="uso[]" value="bard"> Todos os anteriores
+                    <input type="checkbox" name="uso[]" value="bard"> Nenhum dzos anteriores
+                  </div>
+
+                  <div class="grupo-form">
+                    <label for="cor">Escolha sua cor de cabelo:</label>
+                    <input type="color" id="cor" name="cor">
+                  </div>
+
+                  <div class="grupo-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                  </div>
+
+                  <div class="grupo-form centraliza">
+                    <button type="submit" class="btn">Enviar</button>
+                    <input type="hidden" name="_captcha" value="false"> 
+                    <input type="hidden" name="_next" value="https://cintiapinho.github.io/meuprimeirosite_1C_TurmaB_2025/enviadosucesso.html">       s
+
+
+            </form>
+
+
+        </div>
+    </section>
+
+    <body>
+        <section id="contato">
 
             <div class="cont">
 
@@ -64,9 +148,8 @@
             </div>
 
         </section>
-    </main>
+    </body>
+
     <footer>
         <p>@ 2025 - Criado por Vitoria Moreira - Todos os Direitos Reservados</p>
     </footer>
-
-    
